@@ -7,10 +7,10 @@ $ build -t <your username>/node-api
 ```
 Second Tab:
 ```sh
-$ docker run -p 49160:8080 -d <your username>/node-api
+$ docker run -p <port>:8080 -d <your username>/node-api
 ```
 
 Test API:
 ```sh
-$ curl -i localhost:49160
+$ curl -i localhost:<port>
 ```
