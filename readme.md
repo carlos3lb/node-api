@@ -5,7 +5,7 @@ Build Docker image:
 ```sh
 $ build -t <your username>/node-api
 ```
-Second Tab:
+Run Docker image:
 ```sh
 $ docker run -p <port>:8080 -d <your username>/node-api
 ```
